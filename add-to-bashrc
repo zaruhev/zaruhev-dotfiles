@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+
+# If #XDG_CONFIG_HOME is not defined on your user, you should define it in
+# ~/.bashrc as:
+# export XDG_CONFIG_HOME='~/.config'
+alias neofetch='neofetch --ascii $XDG_CONFIG_HOME/neofetch/ascii/lain-braille'
